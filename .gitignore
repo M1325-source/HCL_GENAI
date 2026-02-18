@@ -1,0 +1,9 @@
+# Ignore Chroma database
+RAG_Meals_db/chroma_storage/
+
+# Ignore Python cache
+RAG_Meals_db/__pycache__/
+__pycache__/
+
+# Ignore SQLite DB
+*.sqlite3
