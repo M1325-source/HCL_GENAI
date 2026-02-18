@@ -1,0 +1,18 @@
+Create a FastAPI application in Python that finds the meal with the least number of ingredients using TheMealDB API.
+
+Initially, use the endpoint:
+https://www.themealdb.com/api/json/v1/1/search.php?f=a
+
+Then extend the solution to fetch meals for all letters from 'a' to 'z' instead of just 'a'.
+
+Requirements:
+- Fetch all meals from TheMealDB API.
+- Count only non-empty ingredient fields (strIngredient1 to strIngredient20).
+- Return the meal that has the minimum number of ingredients.
+- The response should include:
+    - meal name
+    - total ingredient count
+    - list of ingredients
+- Handle cases where meals may be null.
+- Write clean, optimized, production-ready code.
+- Use FastAPI and the requests library.
